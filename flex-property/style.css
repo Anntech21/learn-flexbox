@@ -50,3 +50,15 @@ flex: 2;    --> twice the size of the other flex items
 flex: 3;    --> three times as much space 
 
 */
+.container {
+  display:flex;
+  border:10px solid goldenrod;
+  }
+
+  .box {
+    flex:1;
+  }
+
+  .box2 {
+    flex:3;
+  }

@@ -49,3 +49,15 @@ align-items: baseline;    --> it looks at the text of your item and makes sure t
                               the bottom of every single letter, number, text is aligned 
                               at the same line
 */
+.container {
+  display:flex;
+  border:10px solid goldenrod;
+  align-items: flex-start;
+  height:100vh;
+  flex-direction: column;
+  } 
+
+  .box2 {
+    font-size:50px;
+  }
+

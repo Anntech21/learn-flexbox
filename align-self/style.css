@@ -40,3 +40,18 @@ align-self
 - Once you apply it to the individual item, it will overwrite the value of the container
 
 */
+.container {
+  display:flex;
+  border:10px solid goldenrod;
+  height:100vh;
+  align-items:flex-start;  
+}
+
+.box{
+  width:33.33%;
+}
+
+.box2 {
+padding-bottom: 50px;
+align-self: stretch;
+}

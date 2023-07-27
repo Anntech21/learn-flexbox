@@ -30,7 +30,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 
-
+.container {
+  display:inline-flex;
+  border: 10px solid goldenrod;
+  height: 100vh;
+}
 /* 
 -------------
 align-content
@@ -55,3 +59,14 @@ align-content: center;          --> everything is centered vertically
 align-content: center;
 justify-content: center;        --> everything is centered vertically and horizontally
 */
+.container {
+  display:flex;
+  border:10px solid goldenrod;
+  flex-wrap: wrap;
+  align-content: flex-end ;
+  height:100vh;
+  }
+
+  .box{
+    width:33.333%  
+  }
